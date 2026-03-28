@@ -27,6 +27,7 @@ lv_obj_t * player_label;
 
 bool firstPlayer = true;
 bool win = false;
+bool draw = false;
 int board[9] = {0, 0, 0, 0, 0, 0, 0, 0, 0};
 
 const int win_combinations[8][3] = {
